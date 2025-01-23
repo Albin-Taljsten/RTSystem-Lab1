@@ -5,15 +5,16 @@
  * Author : Albin, Linus
  */ 
 
-
+#include <avr/io.h>
 #include <stdio.h>
 #include "file.h"
-#include "Part1.h"
+
 
 int main(void)
 {
     /* Replace with your application code */
-	LCDinit();
+	int n = num(2);
+	printf(""+n);
     while (1) 
     {
     }

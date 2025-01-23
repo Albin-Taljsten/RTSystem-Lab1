@@ -6,5 +6,3 @@ file.c
 
 main.c
 
-Part1.c
-
