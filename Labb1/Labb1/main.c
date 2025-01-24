@@ -14,8 +14,6 @@ int main(void)
 {
     /* Replace with your application code */
 	LCDinit();
-    while (1) 
-    {
-    }
+	writeChar('0', 1);
 }
 
